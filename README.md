@@ -2,7 +2,7 @@
 
 Discord Rich Presence integration for Bitwig Studio - shows what project you're working on, what panel you're in (Arrange/Mix/Edit), and displays your Bitwig version directly in Discord.
 
-![Activity screenshot](./activity-screenshot.png)
+![screenshot](https://github.com/user-attachments/assets/29fb1063-335f-491d-a0cf-6b5fe1aa8d9d)
 
 ## ✨ Features
 
