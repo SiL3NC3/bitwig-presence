@@ -29,7 +29,7 @@ public class DiscordRPCExtensionDefinition extends ControllerExtensionDefinition
    @Override
    public String getVersion()
    {
-      return "0.1.1";
+      return "0.3.0";
    }
 
    @Override
@@ -53,7 +53,10 @@ public class DiscordRPCExtensionDefinition extends ControllerExtensionDefinition
    @Override
    public int getRequiredAPIVersion()
    {
-      return 19;
+      // API 18 = Bitwig 5
+      // API 25 = Bitwig 6 Beta (maybe?)
+      // Try 18 first to see if extension loads at all
+      return 18;
    }
 
    @Override
